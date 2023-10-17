@@ -1,0 +1,122 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    height:fit;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+#landing {
+    background: white;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2 {
+    color: gray;
+}
+
+#landing-image {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+   }
+
+
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#header h2 {
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color:black;
+}
+
+footer h3 {
+    font-size: 3rem;
+}
+
+footer p a {
+    text-decoration: none;
+    color: red;
+}
+
+
+@media(min-width: 31.25rem) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+
+.carousel-img {
+    display: flex;
+    flex-direction: row;
+}
